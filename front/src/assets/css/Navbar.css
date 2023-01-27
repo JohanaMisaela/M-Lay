@@ -1,0 +1,81 @@
+div {
+  
+  text-align: center;
+}
+section {
+  background-color: #03262B;
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+#logo{
+  width: 100px;
+  height: 70px;
+  background-image: url('./../images/logop.png');
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+} 
+p {
+  font-size: 96px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 1s ease-in-out;
+  position: relative;
+  margin-top: 30px;
+}
+p::before {
+  content: attr(data-item);
+  transition: all 1s ease-in-out;
+  color: #;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+p:hover::before {
+  width: 100%;
+}
+
+nav {
+  background: #03262B;
+  display: inline-block;
+}
+nav .menuItems {
+  list-style: none;
+  display: flex;
+}
+nav .menuItems li {
+  top: 0;
+  margin-left: 20px;
+}
+nav .menuItems li a {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Oswald';
+  transition: all 15s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+nav .menuItems li a::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #D17B15;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+nav .menuItems li a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=Navbar.css.map */
