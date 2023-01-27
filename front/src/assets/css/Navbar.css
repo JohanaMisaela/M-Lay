@@ -7,15 +7,17 @@ section {
   margin-top: -20px;
   margin-left: -10px;
   margin-right: -10px;
+  padding-bottom: 3px;
 }
 #logo{
   width: 100px;
-  height: 70px;
+  height: 60px;
   background-image: url('./../images/logop.png');
   background-size: cover;
   display: inline-block;
   float: left;
   margin-left: 50px;
+  margin-top: 11px;
 } 
 p {
   font-size: 96px;
@@ -44,6 +46,7 @@ p:hover::before {
 nav {
   background: #03262B;
   display: inline-block;
+  margin-top: 9px;
 }
 nav .menuItems {
   list-style: none;
