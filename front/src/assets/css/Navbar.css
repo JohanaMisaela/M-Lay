@@ -47,6 +47,7 @@ nav {
   background: #03262B;
   display: inline-block;
   margin-top: 9px;
+  box-shadow: #03262B;
 }
 nav .menuItems {
   list-style: none;
@@ -54,7 +55,9 @@ nav .menuItems {
 }
 nav .menuItems li {
   top: 0;
-  margin-left: 20px;
+display: inline-block;
+margin-right: 90px;
+margin-left: -30px;
 }
 nav .menuItems li a {
   text-decoration: none;
