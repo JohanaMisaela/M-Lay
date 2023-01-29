@@ -21,7 +21,6 @@ section {
 } 
 p {
   font-size: 96px;
-  text-transform: uppercase;
   font-weight: 600;
   transition: all 1s ease-in-out;
   position: relative;
@@ -67,7 +66,6 @@ nav .menuItems li a {
   font-family: 'Oswald';
   transition: all 15s ease-in-out;
   position: relative;
-  text-transform: uppercase;
 }
 nav .menuItems li a::before {
   content: attr(data-item);
